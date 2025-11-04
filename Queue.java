@@ -29,7 +29,7 @@ public class Queue {
         }
     }
 
-    // 👉 Circular Queue Methods
+
     public void circularEnqueue(int x) {
         if ((circularRear + 1) % MAX == circularFront) {
             System.out.println("Overflow (Circular Queue)");
@@ -53,3 +53,4 @@ public class Queue {
         }
     }
 }
+
